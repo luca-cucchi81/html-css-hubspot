@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
   }
 
   .clearfix:after {
@@ -9,3 +10,54 @@
       display: table;
       clear: both;
   }
+
+/* stile per container full-fullwidth */
+.container-fullwidth-primo{
+    background-color: #f5f8fa;
+}
+
+/*stile container*/
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*STILE UNICO PER LINK*/
+a{
+    text-decoration: none;
+}
+
+/* STILE CONTAINER FIXED */
+.fixed{
+    width: 1200px;
+    height: 80px;
+    position: fixed;
+    line-height: 80px;
+}
+.fixed-box{
+    float: left;
+}
+
+.fixed-box #lingua{
+    border-right: 1px solid #cbd6e2;
+    padding: 0 10px;
+}
+
+.fixed-box #contatti{
+    padding-left: 5px;
+}
+
+.fixed-second-box{
+    float: right;
+}
+
+.fixed-second-box a{
+    padding: 5px 5px;
+    border-radius: 3px;
+}
+
+.fixed-second-box #login{
+    border: 2px solid #ff7a59;
+    color: #ff7a59;
+}
