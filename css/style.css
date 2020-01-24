@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .clearfix:after {
@@ -14,6 +14,8 @@
 /* stile per container full-fullwidth */
 .container-fullwidth-primo{
     background-color: #f5f8fa;
+    width: 100vw;
+    z-index: 99
 }
 .container-fullwidth-secondo{
     background-color: #ffffff;
@@ -46,6 +48,7 @@ a, i, li{
     overflow: hidden;
     line-height: 80px;
     background-color: #f5f8fa;
+    z-index: 99;
 }
 .fixed-box{
     float: left;
@@ -92,6 +95,7 @@ a, i, li{
     display: inline-block;
     position: relative;
     transform: translateY(30%);
+    left: 6px;
 }
 .navbar nav{
     float: right;
@@ -116,7 +120,8 @@ a, i, li{
     width: 80%;
     display: inline-block;
     position: relative;
-    top: 30%;
+    top: 25%;
+    line-height: 1.5;
     color: #f9ffff;
 }
 
@@ -129,4 +134,52 @@ a, i, li{
     background-color: #ffffff;
     border-radius: 3px;
     color: #33475b;
+}
+
+/* STILE SEZIONE JUMBOTRON */
+.jumbotron{
+    height: 600px;
+    display: inline-block;
+}
+
+.testo-jumbo{
+    width: 40%;
+    position: relative;
+    float: left;
+    transform: translateY(50%);
+}
+
+.testo-jumbo h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #33475b;
+}
+.testo-jumbo p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #5c6a79;
+
+}
+.jumbo-button a{
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: #ff7a59;
+    border-radius: 3px;
+    padding: 30px 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.jumbo-button p{
+    width: 40%;
+    font-size: 12px;
+    color: #3c4f62;
+}
+
+.immagine-jumbo{
+    float: left;
+    width: 40%;
+    position: relative;
+    transform: translateY(50%);
+
 }
