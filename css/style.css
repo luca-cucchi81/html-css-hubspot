@@ -94,7 +94,7 @@ a, i, li{
 .navbar img{
     display: inline-block;
     position: relative;
-    transform: translateY(30%);
+    transform: translateY(20%);
     left: 6px;
 }
 .navbar nav{
@@ -138,14 +138,17 @@ a, i, li{
 
 /* STILE SEZIONE JUMBOTRON */
 .jumbotron{
-    height: 600px;
-    display: inline-block;
+    height: 800px;
+    background-image: url("../img/case.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+
 }
 
 .testo-jumbo{
     width: 40%;
+    display: inline-block;
     position: relative;
-    float: left;
     transform: translateY(50%);
 }
 
@@ -178,8 +181,7 @@ a, i, li{
 
 .immagine-jumbo{
     float: left;
-    width: 40%;
-    position: relative;
-    transform: translateY(50%);
-
+    width: 60%;
+    position: absolute;
+    transform: translateY(30%);
 }
