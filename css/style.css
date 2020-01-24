@@ -31,6 +31,10 @@
 .container-fullwidth-terzo {
     background-color: #425b76;
 }
+.container-fullwidth-verde {
+    background-color: #00abb7;
+    margin-top: 80px;
+}
 
 /*stile container*/
 .container {
@@ -290,15 +294,11 @@ a, i, li {
 /* STILE PER SEZIONE CARDS */
 .box-uno{
     width: 80%;
-    height: 800px;
     margin: 0 auto;
-}
-.content{
-    height: 100%;
+    padding-top: 80px;
 }
 .card{
     width: 33.33%;
-    height: 100%;
     float: left;
     padding: 0 40px;
     display: inline-block;
@@ -306,12 +306,17 @@ a, i, li {
 
 .content img{
     transform: scale(50%);
+    max-height: 200px;
 }
 
 .content h3{
     font-size: 20px;
 }
-.content h3, .content h4,{
+
+.content h4{
+    font-size: small;
+}
+.content h3, .content h4{
     text-align: center;
     margin-bottom: 20px;
     color: #33475b;
@@ -348,4 +353,10 @@ display: inline-block;
     padding: 10px 20px;
     background-color: #ff7a59;
     color: #ffffef;
+}
+
+/* STILE SEZIONE VERDE */
+#testo {
+width: 60%;
+text-align: center;
 }
