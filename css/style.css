@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
   .clearfix:after {
@@ -13,9 +13,15 @@
 
 /* stile per container full-fullwidth */
 .container-fullwidth-primo{
+    height: 80px;
+    position:fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     background-color: #f5f8fa;
-    width: 100vw;
-    z-index: 99
+    border-bottom: 2px solid #d5dee8;
+    z-index: 99;
 }
 .container-fullwidth-secondo{
     background-color: #ffffff;
@@ -23,6 +29,9 @@
 }
 .container-fullwidth-terzo{
     background-color: #425b76;
+}
+.container-fullwidth-quarto{
+    background-color: #ffffff;
 }
 
 /*stile container*/
@@ -43,12 +52,9 @@ a, i, li{
 .fixed{
     width: 1200px;
     height: 80px;
-    position: fixed;
-    top: 0;
-    overflow: hidden;
     line-height: 80px;
     background-color: #f5f8fa;
-    z-index: 99;
+    border-bottom: 2px solid #d5dee8;
 }
 .fixed-box{
     float: left;
@@ -108,7 +114,7 @@ a, i, li{
 
 .navbar li a{
     color: #33476f;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 /* STILE STRISCIA BLU */
@@ -137,8 +143,8 @@ a, i, li{
 }
 
 /* STILE SEZIONE JUMBOTRON */
-.jumbotron{
-    height: 800px;
+.container.jumbo{
+    height: 700px;
     background-image: url("../img/case.jpeg");
     background-repeat:no-repeat;
     background-size: cover;
@@ -149,12 +155,13 @@ a, i, li{
     width: 40%;
     display: inline-block;
     position: relative;
-    transform: translateY(50%);
+    transform: translateY(30%);
 }
 
 .testo-jumbo h1{
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: 900;
     color: #33475b;
 }
 .testo-jumbo p{
@@ -167,7 +174,7 @@ a, i, li{
     display: inline-block;
     margin-bottom: 20px;
     background-color: #ff7a59;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 30px 30px;
     font-weight: bold;
     color: #ffffff;
@@ -184,4 +191,34 @@ a, i, li{
     width: 60%;
     position: absolute;
     transform: translateY(30%);
+}
+
+/* STILE SEZIONE CUBO RUBIK */
+.rubik-card{
+    width: 80%;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 30%);
+    display: inline-block;
+}
+
+.rubik-card img{
+    width: 260px;
+    height: 200px;
+}
+
+.rubik-card h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #33475b;
+}
+
+.rubik-card p{
+    color: #33475b;
+    letter-spacing: 0.5;
+    line-height: 1.5;
 }
