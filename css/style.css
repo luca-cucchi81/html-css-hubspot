@@ -356,7 +356,25 @@ display: inline-block;
 }
 
 /* STILE SEZIONE VERDE */
-#testo {
-width: 60%;
-text-align: center;
+.box-verde{
+    height: 500px;
+}
+
+.content-verde{
+    position: relative;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 60%;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.content-verde h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.content-verde p{
+    font-weight: lighter;
 }
