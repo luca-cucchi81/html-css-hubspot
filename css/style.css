@@ -3,18 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-  }
+}
 
-  .clearfix:after {
-      content: "";
-      display: table;
-      clear: both;
-  }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /* stile per container full-fullwidth */
-.container-fullwidth-primo{
+.container-fullwidth-primo {
     height: 80px;
-    position:fixed;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
@@ -23,15 +23,13 @@
     border-bottom: 2px solid #d5dee8;
     z-index: 99;
 }
-.container-fullwidth-secondo{
-    background-color: #ffffff;
+
+.container-fullwidth-secondo {
     margin-top: 80px;
 }
-.container-fullwidth-terzo{
+
+.container-fullwidth-terzo {
     background-color: #425b76;
-}
-.container-fullwidth-quarto{
-    background-color: #ffffff;
 }
 
 /*stile container*/
@@ -42,87 +40,92 @@
 }
 
 /*STILE UNICO PER LINK*/
-a, i, li{
+a, i, li {
     text-decoration: none;
     cursor: pointer;
     list-style-type: none;
 }
 
 /* STILE CONTAINER FIXED */
-.fixed{
+.fixed {
     width: 1200px;
     height: 80px;
     line-height: 80px;
     background-color: #f5f8fa;
     border-bottom: 2px solid #d5dee8;
 }
-.fixed-box{
+
+.fixed-box {
     float: left;
 }
 
-.fixed-box #lingua{
+.fixed-box #lingua {
     border-right: 1px solid #cbd6e2;
     padding: 0 10px;
     color: #33475b;
 }
 
-.fixed-box #contatti{
+.fixed-box #contatti {
     padding-left: 5px;
     color: #33475b;
 }
 
-.fixed-second-box{
+.fixed-second-box {
     float: right;
 }
 
-.fixed-second-box a{
+.fixed-second-box a {
     padding: 10px 15px;
     border-radius: 3px;
     font-size: small
 }
 
-.fixed-second-box #login{
+.fixed-second-box #login {
     border: 2px solid #ff7a59;
     color: #ff7a59;
     margin-left: 20px;
 }
-.fixed-second-box #free{
+
+.fixed-second-box #free {
     border: 2px solid #ff7a59;
     background-color: #ff7a59;
     color: #ffffef;
 }
 
 /* STILE CONTAINER NAVBAR */
-.navbar{
+.navbar {
     height: 80px;
     line-height: 80px;
 }
-.navbar img{
+
+.navbar img {
     display: inline-block;
     position: relative;
     transform: translateY(20%);
     left: 6px;
 }
-.navbar nav{
+
+.navbar nav {
     float: right;
     margin-right: 60px;
 }
-.navbar li{
+
+.navbar li {
     display: inline-block;
     margin-left: 50px;
 }
 
-.navbar li a{
+.navbar li a {
     color: #33476f;
     font-weight: 900;
 }
 
 /* STILE STRISCIA BLU */
-.striscia{
+.striscia {
     height: 90px;
 }
 
-#testo-1{
+#testo-1 {
     width: 80%;
     display: inline-block;
     position: relative;
@@ -131,7 +134,7 @@ a, i, li{
     color: #f9ffff;
 }
 
-.striscia a{
+.striscia a {
     float: right;
     position: relative;
     top: 30%;
@@ -143,50 +146,50 @@ a, i, li{
 }
 
 /* STILE SEZIONE JUMBOTRON */
-.container.jumbo{
+.container.jumbo {
     height: 700px;
     background-image: url("../img/case.jpeg");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-
 }
 
-.testo-jumbo{
+.testo-jumbo {
     width: 40%;
     display: inline-block;
     position: relative;
     transform: translateY(30%);
 }
 
-.testo-jumbo h1{
+.testo-jumbo h1 {
     margin-bottom: 20px;
     font-size: 60px;
     font-weight: 900;
     color: #33475b;
 }
-.testo-jumbo p{
+
+.testo-jumbo p {
     margin-bottom: 20px;
     line-height: 1.5;
     color: #5c6a79;
-
 }
-.jumbo-button a{
+
+.jumbo-button a {
     display: inline-block;
     margin-bottom: 20px;
     background-color: #ff7a59;
     border-radius: 5px;
-    padding: 30px 30px;
+    padding: 20px 40px;
     font-weight: bold;
     color: #ffffff;
 }
 
-.jumbo-button p{
+.jumbo-button p {
     width: 40%;
     font-size: 12px;
     color: #3c4f62;
 }
 
-.immagine-jumbo{
+.immagine-jumbo {
     float: left;
     width: 60%;
     position: absolute;
@@ -194,22 +197,22 @@ a, i, li{
 }
 
 /* STILE SEZIONE CUBO RUBIK */
-.rubik-card{
+.rubik-card {
     width: 80%;
+    margin-top: 100px;
     text-align: center;
     position: relative;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, 30%);
+    transform: translate(-50%);
     display: inline-block;
 }
 
-.rubik-card img{
+.rubik-card img {
     width: 260px;
     height: 200px;
 }
 
-.rubik-card h2{
+.rubik-card h2 {
     margin-bottom: 10px;
     font-size: 40px;
     font-weight: 900;
@@ -217,8 +220,70 @@ a, i, li{
     color: #33475b;
 }
 
-.rubik-card p{
+.rubik-card p {
     color: #33475b;
     letter-spacing: 0.5;
     line-height: 1.5;
+}
+
+/* STILE SEZIONE CRM */
+.crm{
+    width: 80%;
+    margin-top: 100px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    display: inline-block;
+}
+#libro-card{
+    width: 30%;
+    text-align: center;
+    float: left;
+}
+
+#libro-card a{
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #ff7a59;
+    color: #ffffef;
+}
+#testo-crm{
+    width: 70%;
+    float: right;
+    position: relative;
+    transform: translateY(30%);
+    padding-left: 20px;
+}
+
+#testo-crm h3, #testo-crm p{
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+
+#testo-crm h3{
+    font-size: 25px;
+    color: #33475b;
+}
+#testo-crm p{
+    color: #33475b;
+}
+
+#testo-crm li{
+    display: inline-block;
+}
+#testo-crm li:nth-of-type(1n+0){
+    margin-right: 20px;
+}
+
+#testo-crm li::before{
+    content: "";
+    background-image: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg");
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    margin-bottom: -3px;
+    display: inline-block;
 }
