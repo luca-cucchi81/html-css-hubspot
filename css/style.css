@@ -19,6 +19,9 @@
     background-color: #ffffff;
     margin-top: 80px;
 }
+.container-fullwidth-terzo{
+    background-color: #425b76;
+}
 
 /*stile container*/
 .container {
@@ -80,8 +83,7 @@ a, i, li{
     color: #ffffef;
 }
 
-/* TILE CONTAINER NAVBAR */
-
+/* STILE CONTAINER NAVBAR */
 .navbar{
     height: 80px;
     line-height: 80px;
@@ -103,4 +105,28 @@ a, i, li{
 .navbar li a{
     color: #33476f;
     font-weight: 600;
+}
+
+/* STILE STRISCIA BLU */
+.striscia{
+    height: 90px;
+}
+
+#testo-1{
+    width: 80%;
+    display: inline-block;
+    position: relative;
+    top: 30%;
+    color: #f9ffff;
+}
+
+.striscia a{
+    float: right;
+    position: relative;
+    top: 30%;
+    padding: 10px 20px;
+    margin-right: 30px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    color: #33475b;
 }
