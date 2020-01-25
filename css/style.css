@@ -356,25 +356,70 @@ display: inline-block;
 }
 
 /* STILE SEZIONE VERDE */
-.box-verde{
-    height: 500px;
-}
 
 .content-verde{
     position: relative;
-    top:20%;
     left: 50%;
     transform: translate(-50%);
     width: 60%;
     text-align: center;
     color: #ffffff;
     line-height: 1.5;
+    margin-bottom: 50px;
 }
 
 .content-verde h2{
     font-size: 30px;
-    margin-bottom: 20px;
+    padding:20px 0;
 }
 .content-verde p{
     font-weight: lighter;
+}
+
+.grid{
+    width: 100%;
+    color: #ffffff;
+    height: 360px;
+}
+
+.grid-linea-uno{
+    border-bottom: 1px solid #ffffff;
+    height: 50%;
+}
+
+.grid-linea-due{
+    height: 50%;
+}
+
+.grid-element{
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.grid-element:nth-child(-n+3){
+    border-right: 1px solid #ffffff;
+}
+
+.content-element{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content-element img{
+    max-width: 150px;
+}
+
+.content-element p{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+p#plus{
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
 }
