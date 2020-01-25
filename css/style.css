@@ -123,6 +123,14 @@ a, i, li {
     color: #33476f;
     font-weight: 900;
 }
+.navbar a:hover {
+    padding: 0 7px;
+    color: #ffffff;
+    border: 2px solid #ff7a59;
+    border-radius: 5px;
+    background-color: #ff7a59;
+
+}
 
 /* STILE STRISCIA BLU */
 .striscia {
@@ -356,7 +364,6 @@ display: inline-block;
 }
 
 /* STILE SEZIONE VERDE */
-
 .content-verde{
     position: relative;
     left: 50%;
@@ -422,4 +429,53 @@ p#plus{
     font-size: 40px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+/*STILE SEZIONE CUSTOMERS */
+
+.container-customers{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.customers-info{
+    width: 25%;
+    float: left;
+    margin-left: 50px;
+}
+
+#numero{
+    display: block;
+    font-size: 40px;
+    font-weight: 900;
+    color: #33475b;
+    margin-bottom: 10px;
+}
+
+.customers-info p{
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color:#334760;
+}
+
+.customers-box-loghi{
+    float: right;
+    transform: scale(80%);
+}
+
+
+.logo{
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.logo img{
+    width: 150px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
 }
