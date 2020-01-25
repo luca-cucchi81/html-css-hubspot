@@ -35,6 +35,9 @@
     background-color: #00abb7;
     margin-top: 80px;
 }
+.container-fullwidth-finale{
+    background-color: #425b76;
+}
 
 /*stile container*/
 .container {
@@ -481,6 +484,7 @@ p#plus{
 
 .growing{
     display: inline-block;
+    margin-left: 50px;
 }
 
 .testo-growing{
@@ -523,4 +527,39 @@ p#plus{
     transform: scale(70%);
     float: left;
     display: inline;
+}
+
+/* STILE FOOTER */
+.links-vari{
+    padding-top: 100px;
+}
+.box-links{
+    width: 25%;
+    float: left;
+    letter-spacing: 0.5px;
+}
+
+.box-links ul li:first-child{
+    font-weight: 900;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.box-links ul li{
+    margin-bottom: 10px;
+}
+.box-links a{
+    color: #bcd6d5;
+}
+.box-links a:hover{
+    color: #ff7a59;
+}
+
+#support{
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #33475b;
+    font-size: small;
 }
