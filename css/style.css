@@ -380,7 +380,8 @@ display: inline-block;
 
 .content-verde h2{
     font-size: 30px;
-    padding:20px 0;
+    padding-top: 100px;
+    padding-bottom: 20px;
 }
 .content-verde p{
     font-weight: lighter;
@@ -390,6 +391,7 @@ display: inline-block;
     width: 100%;
     color: #ffffff;
     height: 360px;
+    margin-bottom: 100px;
 }
 
 .grid-linea-uno{
